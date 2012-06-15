@@ -18,6 +18,10 @@
 		3727F0C2158B43800073F03B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3727F0A9158B43800073F03B /* Foundation.framework */; };
 		3727F0CA158B43800073F03B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3727F0C8158B43800073F03B /* InfoPlist.strings */; };
 		3727F0CD158B43800073F03B /* TesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3727F0CC158B43800073F03B /* TesterTests.m */; };
+		3727F0D8158B477B0073F03B /* PXPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3727F0D7158B477B0073F03B /* PXPerson.m */; };
+		3727F0DA158B56190073F03B /* twitter_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3727F0D9158B56190073F03B /* twitter_icon.png */; };
+		3727F0DE158B6C260073F03B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3727F0DD158B6C260073F03B /* Storyboard.storyboard */; };
+		3727F0E1158B6C5D0073F03B /* PXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3727F0E0158B6C5D0073F03B /* PXMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +39,24 @@
 		3727F0A7158B43800073F03B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3727F0A9158B43800073F03B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3727F0AB158B43800073F03B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3727F0AF158B43800073F03B /* Tester-Info.plist */ = {isa = PBXFileReference; path = "Tester-Info.plist"; sourceTree = "<group>"; };
+		3727F0AF158B43800073F03B /* Tester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tester-Info.plist"; sourceTree = "<group>"; };
 		3727F0B1158B43800073F03B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3727F0B3158B43800073F03B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3727F0B5158B43800073F03B /* Tester-Prefix.pch */ = {isa = PBXFileReference; path = "Tester-Prefix.pch"; sourceTree = "<group>"; };
-		3727F0B6158B43800073F03B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3727F0B5158B43800073F03B /* Tester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tester-Prefix.pch"; sourceTree = "<group>"; };
+		3727F0B6158B43800073F03B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3727F0B7158B43800073F03B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3727F0BE158B43800073F03B /* TesterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3727F0BF158B43800073F03B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3727F0C7158B43800073F03B /* TesterTests-Info.plist */ = {isa = PBXFileReference; path = "TesterTests-Info.plist"; sourceTree = "<group>"; };
+		3727F0C7158B43800073F03B /* TesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TesterTests-Info.plist"; sourceTree = "<group>"; };
 		3727F0C9158B43800073F03B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3727F0CB158B43800073F03B /* TesterTests.h */ = {isa = PBXFileReference; path = TesterTests.h; sourceTree = "<group>"; };
+		3727F0CB158B43800073F03B /* TesterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TesterTests.h; sourceTree = "<group>"; };
 		3727F0CC158B43800073F03B /* TesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesterTests.m; sourceTree = "<group>"; };
+		3727F0D6158B477B0073F03B /* PXPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXPerson.h; sourceTree = "<group>"; };
+		3727F0D7158B477B0073F03B /* PXPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXPerson.m; sourceTree = "<group>"; };
+		3727F0D9158B56190073F03B /* twitter_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_icon.png; sourceTree = "<group>"; };
+		3727F0DD158B6C260073F03B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		3727F0DF158B6C5D0073F03B /* PXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXMainViewController.h; sourceTree = "<group>"; };
+		3727F0E0158B6C5D0073F03B /* PXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,7 @@
 		3727F098158B43800073F03B = {
 			isa = PBXGroup;
 			children = (
+				3727F0D9158B56190073F03B /* twitter_icon.png */,
 				3727F0AD158B43800073F03B /* Tester */,
 				3727F0C5158B43800073F03B /* TesterTests */,
 				3727F0A6158B43800073F03B /* Frameworks */,
@@ -108,6 +119,11 @@
 			children = (
 				3727F0B6158B43800073F03B /* AppDelegate.h */,
 				3727F0B7158B43800073F03B /* AppDelegate.m */,
+				3727F0DD158B6C260073F03B /* Storyboard.storyboard */,
+				3727F0DF158B6C5D0073F03B /* PXMainViewController.h */,
+				3727F0E0158B6C5D0073F03B /* PXMainViewController.m */,
+				3727F0D6158B477B0073F03B /* PXPerson.h */,
+				3727F0D7158B477B0073F03B /* PXPerson.m */,
 				3727F0AE158B43800073F03B /* Supporting Files */,
 			);
 			path = Tester;
@@ -215,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3727F0B2158B43800073F03B /* InfoPlist.strings in Resources */,
+				3727F0DA158B56190073F03B /* twitter_icon.png in Resources */,
+				3727F0DE158B6C260073F03B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +269,8 @@
 			files = (
 				3727F0B4158B43800073F03B /* main.m in Sources */,
 				3727F0B8158B43800073F03B /* AppDelegate.m in Sources */,
+				3727F0D8158B477B0073F03B /* PXPerson.m in Sources */,
+				3727F0E1158B6C5D0073F03B /* PXMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
