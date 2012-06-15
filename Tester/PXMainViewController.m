@@ -32,7 +32,7 @@
     PXPerson *kollin = [[PXPerson alloc]init];
     PXPerson *chris = [[PXPerson alloc]init];
     
-    int y = [joel setSalary:8 withHoursSpentWorking:6 withNumberOfLanguages:3];
+    int y = [joel setSalary:18 withHoursSpentWorking:6 withNumberOfLanguages:3];
     int x = [eddie setSalary:8 withHoursSpentWorking:7 withNumberOfLanguages:4];
     int z = [kollin setSalary:8 withHoursSpentWorking:7 withNumberOfLanguages:4];
     int q = [chris setSalary:8 withHoursSpentWorking:6 withNumberOfLanguages:2];
